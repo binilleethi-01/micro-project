@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyMate - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>StudyMate</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="register-container">
+
+        <h1>Student Registration</h1>
+        <p>Create your StudyMate account</p>
+
+        <form id="registerForm">
+
+            <label>Full Name</label>
+            <input type="text" id="name"
+            placeholder="Enter your full name" required>
+
+            <label>Email Address</label>
+            <input type="email" id="email"
+            placeholder="Enter your email" required>
+
+            <label>Student Register Number</label>
+            <input type="text" id="regno"
+            placeholder="Enter register number" required>
+
+            <label>Password</label>
+            <input type="password" id="password"
+            placeholder="Create password" required>
+
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword"
+            placeholder="Confirm password" required>
+
+            <button type="submit">Create Account</button>
+
+        </form>
+
+        <p>Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

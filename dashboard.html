@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyMate - Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+
+        <h2>🎓 StudyMate</h2>
+
+        <div class="nav-links">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="planner.html">Study Planner</a>
+            <a href="subjects.html">Subjects</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="calculator.html">Calculator</a>
+        </div>
+
+       <button id="themeToggle" class="theme-toggle">
+    🌙
+</button>
+
+    </nav>
+
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+
+        <div class="welcome-text">
+
+            <h1>Hello, Student! 👋</h1>
+
+            <h2>Plan. Study. Achieve.</h2>
+
+            <p>
+                Your smart study buddy for a brighter future!
+            </p>
+
+            <a href="#study-tools" class="explore-btn">
+                Explore Your Tools →
+            </a>
+
+        </div>
+
+
+        <!-- Milo Robot -->
+        <div class="robot-section">
+
+            <img
+                src="images/milo-robot.png"
+                alt="Milo AI Study Robot"
+                class="milo-robot"
+            >
+
+            <h3>Hi! I'm Milo 🤖</h3>
+
+            <p>Your friendly study assistant!</p>
+
+            <div class="robot-message">
+                Let's make learning fun! 💜
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Dashboard Statistics -->
+    <section class="stats-container">
+
+        <div class="stat-card purple">
+
+            <div class="stat-icon">📚</div>
+
+            <div>
+                <h2 id="subjectCount">5</h2>
+                <p>Total Subjects</p>
+            </div>
+
+        </div>
+
+
+        <div class="stat-card pink">
+
+            <div class="stat-icon">📝</div>
+
+            <div>
+                <h2 id="taskCount">12</h2>
+                <p>Pending Tasks</p>
+            </div>
+
+        </div>
+
+
+        <div class="stat-card green">
+
+            <div class="stat-icon">🏆</div>
+
+            <div>
+                <h2>85%</h2>
+                <p>Study Progress</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Study Tools -->
+    <section class="tools-section" id="study-tools">
+
+        <h2>⭐ Your Study Tools</h2>
+
+        <p class="section-description">
+            Everything you need to organize your learning.
+        </p>
+
+
+        <div class="tools-grid">
+
+
+            <!-- Study Planner -->
+            <div class="tool-card lavender">
+
+                <div class="tool-icon">📅</div>
+
+                <h3>Study Planner</h3>
+
+                <p>
+                    Plan your study schedule and manage your time.
+                </p>
+
+                <a href="planner.html">Open Planner →</a>
+
+            </div>
+
+
+            <!-- Subjects -->
+            <div class="tool-card pink-card">
+
+                <div class="tool-icon">📚</div>
+
+                <h3>Academic Modules</h3>
+
+                <p>
+                    Organize your subjects and learning materials.
+                </p>
+
+                <a href="subjects.html">Explore Subjects →</a>
+
+            </div>
+
+
+            <!-- Calculator -->
+            <div class="tool-card blue-card">
+
+                <div class="tool-icon">🧮</div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    Solve your mathematical calculations easily.
+                </p>
+
+                <a href="calculator.html">Calculate →</a>
+
+            </div>
+
+
+            <!-- Chatbot -->
+            <div class="tool-card green-card">
+
+                <div class="tool-icon">🤖</div>
+
+                <h3>Milo Chatbot</h3>
+
+                <p>
+                    Chat with Milo and get study assistance.
+                </p>
+
+                <a href="chatbot.html">Chat Now →</a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Motivation Section -->
+    <section class="motivation">
+
+        <div class="motivation-robot">
+            🤖
+        </div>
+
+        <div>
+            <h3>Keep Going! You're Doing Great! 💜</h3>
+
+            <p>
+                Every small step brings you closer to success.
+                Believe in yourself!
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💜 by StudyMate | Your Smart Study Buddy</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
